@@ -1,0 +1,73 @@
+.main-grid{
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.us-logo{
+    width: 150px;
+    height: 150px;
+    border-radius: 200px;
+}
+.btn{
+    background-color: #0d6efd;
+    border: none;
+    width: 100%;
+    font-weight: 400;
+    line-height: 1.5;
+    vertical-align: middle;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    margin: 0px;
+    padding: 8px;
+
+}
+.btn:hover{
+    background-color: #408af8;
+    
+
+}
+.left-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    padding: 24px;
+    
+}
+.card{
+    background-color: white;
+    width: 80%;
+    padding: 24px;
+    align-items: center;
+    margin: 12px;
+    border-radius: 0.25rem;
+}
+.g-card{
+    margin: 12px;
+    padding: 0px;
+    height: auto;
+}
+.claims{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.re{
+    margin: 0px;
+    width: 80%;
+}
+
+h2{
+    display: inline;
+}
+.center-div{
+    
+    background-color:white ;
+    padding: 12px;
+    border-radius: 0.25rem;
+}
+.re-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}

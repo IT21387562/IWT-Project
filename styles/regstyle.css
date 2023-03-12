@@ -1,0 +1,254 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.bd{
+    background: url(http://wrbbradio.org/wp-content/uploads/2016/10/grey-background-07.jpg) no-repeat center fixed;
+    background-size: cover;
+  }
+.header-text{
+    text-align: center;
+    font-style: initial;
+    color: rgb(191, 174, 211);
+}
+
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+button{
+    width:100px;
+	padding:1px 0;
+	text-align:center;
+	margin:5px 5px;
+	border-radius:25px;
+	font-weight:bold;
+	border:2px solid #20B2AA;
+	background: transparent;
+	color:#fff;
+	cursor:pointer;
+	position:relative;
+	overflow:hidden;
+}
+span{
+    background:#20B2AA;
+	height:100%;
+	width: 0%;
+	border-radius:25px;
+	position:absolute;
+	left:0;
+	bottom:0;
+	z-index:-1;
+}
+.sign{
+    margin-left: 80%;
+    margin-right: auto;
+}
+.hr1{
+    border-top: 5px solid black;
+}
+.navigation
+{
+	margin: auto;
+	padding:auto;
+	display:flex;
+	align-items:center;
+}
+.navigation ul li{
+    list-style:none;
+	display:inline-block;
+	margin: 0 20px;
+	position:relative;
+}
+.navigation ul li a{
+    
+	text-decoration:none;
+	color:rgb(228, 18, 18);
+	text-transform:uppercase;
+}
+.navigation li ul:hover::after{
+    width:100%;	
+}
+.user{
+    margin-left: 85%;
+    margin-right: auto;
+}
+
+
+.container{
+	background: #2d3e3f;
+	width: 350px;
+	height: 700px;
+	padding-bottom: 20px;
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin: auto;
+    padding: 70px 50px 20px 50px;
+}
+
+
+.fl{
+	float: left;
+  width: 110px;
+  line-height: 35px;
+}
+
+.fontLabel{
+  color: white;
+}
+
+.fr{
+	float: right;
+}
+
+.clr{
+	clear: both;
+}
+
+.box{
+	width: 360px;
+	height: 40px;
+	margin-top: 10px;
+	font-family: verdana;
+	font-size: 12px;
+}
+
+.textBox{
+	height: 35px;
+	width: 190px;
+	border: none;
+  padding-left: 20px;
+}
+
+.new{
+  float: left;
+}
+
+.iconBox{
+	height: 35px;
+	width: 40px;
+	line-height: 38px;
+	text-align: center;
+  background: #ff6600;
+}
+
+.radio{
+	color: white;
+	background: #2d3e3f;
+	line-height: 38px;
+}
+
+.terms{
+	line-height: 35px;
+	text-align: center;
+	background: #2d3e3f;
+	color: white;
+}
+
+.submit{
+	float: right;
+	border: none;
+	color: white;
+	width: 110px;
+	height: 35px;
+	background: #ff6600;
+	text-transform: uppercase;
+  cursor: pointer;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+
+}
+
+
+.flooter{
+    color: rgb(234, 234, 234);
+    height: auto;
+    text-align: center;
+    font-size: medium;
+    font-weight: lighter;
+    flex: auto;
+    align-items: center;
+    display: flex;
+}
+.bod{
+	text-align: center;
+	text-size-adjust: 100px;
+	color: rgb(197, 13, 13);
+}
+<!---->
+@media (max-width: 991px) {
+	.navbar-scroll {
+	  background-color: #fff;
+	}
+	   
+	.navbar-scroll .navbar-brand,
+	.navbar-scroll .nav-link,
+	.navbar-scroll .fa-bars {
+	  color: #4f4f4f !important;
+	}         
+  }
+  
+  .navbar-brand {
+	letter-spacing: 3px;
+	font-size: 2rem;
+	font-weight: 500;
+  }
+  .navbar-scroll .navbar-brand,
+  .navbar-scroll .nav-link,
+  .navbar-scroll .fa-bars {
+	color: #fff;
+  }
+  
+  .navbar-scroll {
+	box-shadow: none;
+  }
+  
+  .navbar-scrolled {
+	box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.05);
+  }
+  
+  .navbar-scrolled .navbar-brand,
+  .navbar-scrolled .nav-link,
+  .navbar-scrolled .fa-bars {
+	color: #4f4f4f;
+  }
+  
+  .navbar-scrolled {
+	background-color: #fff;
+  }
+  
+  @media (max-width: 450px) {
+	#intro {
+	  height: 950px !important;
+	}
+  }
+  
+  @media (min-width: 550px) and (max-width: 750px) {
+	#intro {
+	  height: 1100px !important;
+	}
+  }
+  
+  @media (min-width: 800px) and (max-width: 990px) {
+	#intro {
+	  height: 600px !important;
+	}
+  }
+  
+  .display-1 {
+	font-weight: 500 !important;
+	letter-spacing: 40px;
+  }
+  
+  @media (min-width: 1600px) {
+	.display-1 {
+	  font-size: 10rem;
+	}
+  }

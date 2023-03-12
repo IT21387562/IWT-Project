@@ -1,0 +1,282 @@
+*
+{
+	margin:0;
+	padding:0;
+	font-family:Andale Mono;
+	font-family: 'Poppins', sans-serif;
+}
+hr
+{
+	border-style:solid;
+	border-width:1px;
+	border-color:white;
+}
+body
+{
+	/* width:100%;
+	height:100%; */
+	background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("../images/new.jpg");
+	/* background-color: rgb(20, 20, 20); */
+	background-size:cover;
+	background-attachment:scroll;
+}
+.top
+{
+	margin: 0;
+	padding: 0;
+	display:flex;
+	align-items:center;
+	justify-content: center;
+
+	
+}
+.topic
+{
+	width: 500px;
+	color:#20B2AA;
+	/* margin:0px 20px 0px 530px; */
+	margin: auto;
+	text-align:center;
+	
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;	
+
+	padding-bottom:10px;
+	padding-top: -10px;
+}
+
+.navigation
+{
+	margin: auto;
+	padding: 25px 0;
+	display:flex;
+	align-items:center;
+}
+.logo
+{
+	cursor:pointer;
+	
+}
+.user
+{
+	cursor:pointer;
+	/* margin:0px 20px 0px 400px; */
+	text-align:center;
+	padding-bottom:10px;
+	padding-top: -10px;
+	border-radius:50%;
+}
+.topBtn
+{
+	width:100px;
+	padding:1px 0;
+	text-align:center;
+	margin:5px 5px;
+	border-radius:25px;
+	font-weight:bold;
+	border:2px solid #20B2AA;
+	background: transparent;
+	color:#fff;
+	cursor:pointer;
+	position:relative;
+	overflow:hidden;
+}
+span
+{
+	background:#20B2AA;
+	height:100%;
+	width: 0%;
+	border-radius:25px;
+	position:absolute;
+	left:0;
+	bottom:0;
+	z-index:-1;
+}
+.topBtn:hover span
+{
+	width:100%;
+}
+.navigation ul li
+{
+	list-style:none;
+	display:inline-block;
+	margin: 0 20px;
+	position:relative;
+}
+.navigation ul li a
+{
+	text-decoration:none;
+	color:#fff;
+	text-transform:uppercase;
+}
+.navigation ul li::after
+{
+	content: ' ';
+	height:3px;
+	width:0;
+	background:#20B2AA;
+	position:absolute;
+	left:0;
+	bottom:-10px;	
+}
+.navigation ul li:hover::after
+{
+	width:100%;	
+}
+
+.search{
+	margin-left: 10%;
+}
+
+.search input{
+	font-size: 15px;
+	width: 350px;
+	background: none;
+	color: #fff;
+	border: none;
+	border: 1px solid #aefffb;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+/*Login Container*/
+.login-container{
+    height: 60vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.login-form{
+	width: 300px;
+	padding: 30px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	/* top: 50%;
+	left: 50%; */
+	/* transform: translate(-50%,50%); */
+	background: rgba(0,0,0,0.5);
+	
+
+}
+
+.login-form h1{
+	color: #20B2AA;
+}
+
+.login-form input[type="text"], .login-form input[type="password"]{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 15px auto;
+	text-align: center;
+	border: 2px solid #aefffb;
+	padding: 14px 10px;
+	width: 220px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+
+	/* transition: 0.25px; */
+
+}
+
+.login-form input[type="text"]:hover, .login-form input[type="password"]:hover{
+	width: 230px;
+	border-color: #20B2AA;
+}
+
+.login-form button[type="submit"]{
+	font-weight: 800;
+	font-size: 15px;
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #20B2AA;
+	padding: 10px 35px;
+	outline: none;
+	color: rgb(255, 255, 255);
+	border-radius: 22px;
+
+	transition: 0.25px;
+	cursor: pointer;
+}
+
+.login-form label{
+	color: #fff;
+}
+
+.login-form button[type="submit"]:hover{
+	background: #20B2AA;
+	color: #aefffb;
+}
+
+.signup{
+	display: flex;
+	flex-direction: row;
+	align-items: stretch;
+	justify-content: center;
+}
+
+.login-form h5{
+	font-weight: 500;
+	color: #fff;
+	margin: 10px;
+}
+.login-form a{
+	font-weight: 500;
+	text-decoration: none;
+	color: #20B2AA;
+}
+
+
+
+.bottom
+{
+	margin: 0;
+	padding: 0;
+	display:flex;
+	align-items:center;
+}
+.text
+{
+	margin: auto;
+	padding: 35px 0;
+	display:flex;
+	align-items:center;
+	color:#fff;
+}
+.text ul li
+{
+	list-style:none;
+	margin: 0 20px;
+	position:relative;
+}
+.text ul li a
+{
+	text-decoration:none;
+	color:#fff;
+	text-transform:uppercase;
+}
+.text ul li ::after
+{
+	content: ' ';
+	height:3px;
+	width:0;
+	background:#20B2AA;
+	position:absolute;
+	left:0;
+	bottom:-10px;	
+}
+.text ul li :hover::after
+{
+	width:100%;	
+}	

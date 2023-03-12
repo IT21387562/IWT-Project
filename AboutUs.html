@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+
+<html>
+<title> Health Insurance Management System </title>
+<link rel="stylesheet" href="styles/H.css">
+<link rel="stylesheet" href="styles/bodystyle.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+
+<body>
+	<div class="top">
+		<img src="images/logo.png" width="140" height="100" class="logo">
+		<div class="topic">
+			<h1>HI INSURANCE</h1>
+		</div>
+		<div class="auth">
+			<img src="images/usernew.webp" width="50" height="50" class="user">
+			<div>
+				<a href="User Accout.html"><button type="button"><span></span>use profile</button></a>
+				<a href="login.php"><button type="button"><span></span>Sign out</button></a>
+			</div>
+		</div>
+	</div>
+	<hr>
+
+	<div class="navigation">
+		<ul>
+			<li><a href="home_A.html"> HOME </a> </li>
+			<li><a href="ourproducts.php"> OUR PRODUCT </a> </li>
+			<li><a href="Appointment.php">COLLABORATIONS  </a> </li>
+			<li><a href="news.html"> NEWS </a> </li>
+			<li><a href="AboutUs.html"> ABOUT US </a> </li>
+			<li><a href="Contact us.html"> CONTACT US</a> </li>
+			<li><a href="contactus.php"> Feedback</a> </li>
+		</ul>
+	</div>
+	<hr>
+	<br>
+
+	<!--ADD BODY HERE!-->
+
+	
+	<div class="container m-3">
+    <h2 style="color:white;padding: 12px;">About Us</h2>
+    <hr>
+    <div class="row" style="display: flex;flex-direction:row;padding:12px">
+    <div class="abt">
+      <div class="col-7" style="color:white">
+        <h4>Who we are</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis blanditiis consequuntur excepturi quia.
+          Necessitatibus reprehenderit quisquam eaque porro, rerum fuga quod recusandae assumenda quo non dicta possimus
+          rem ex deserunt.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio magnam dolorem error, minus necessitatibus
+          rem, asperiores labore odit officiis quae eos voluptatem aliquam? Aut quis pariatur quasi debitis natus
+          libero?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta eaque veritatis error ipsam harum aspernatur
+          omnis est aliquid architecto illo ut rerum fugiat libero dicta, magni eum reprehenderit sapiente! In?</p>
+      </div>
+      </div>
+      <div class="col-5">
+        <div class="card">
+          <div class="card-body">
+            <canvas id="myChart" style="width:100%;max-width:600px"></canvas>
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+  </div>
+
+
+
+  <script>
+    var xValues = [100, 200, 300, 400, 500, 600, 700, 800, 900, 1000];
+
+    new Chart("myChart", {
+      type: "line",
+      data: {
+        labels: xValues,
+        datasets: [{
+          data: [860, 1140, 1060, 1060, 1070, 1110, 1330, 2210, 7830, 2478],
+          borderColor: "red",
+          fill: false
+        }, {
+          data: [1600, 1700, 1700, 1900, 2000, 2700, 4000, 5000, 6000, 7000],
+          borderColor: "green",
+          fill: false
+        }, {
+          data: [300, 700, 2000, 5000, 6000, 4000, 2000, 1000, 200, 100],
+          borderColor: "blue",
+          fill: false
+        }]
+      },
+      options: {
+        legend: { display: false }
+      }
+    });
+  </script>
+
+
+<br>
+<hr class="hrule1">
+
+
+	<br>
+	<hr>
+
+
+	<div class="bottom">
+		<img src="images/logo.png" width="180" height="140" class="logo">
+		<div class="text">
+			<ul>
+				<li>
+					<h2> Help & Support</h2>
+				</li><br>
+				<li><a href="how to claim.html">
+						<h4> How to Claim </h4>
+				</li><br>
+				<li><a href="#">
+						<h4> Support for Members </h4>
+				</li><br>
+				<li><a href="#">
+						<h4> Member FAQ </h4>
+				</li>
+			</ul>
+		</div>
+
+	</div>
+</body>
+
+</html>

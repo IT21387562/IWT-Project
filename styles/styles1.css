@@ -1,0 +1,522 @@
+*
+{
+	margin:0;
+	padding:0;
+	font-family:Andale Mono;
+}
+hr
+{
+	border-style:solid;
+	border-width:1px;
+	border-color:white;
+}
+body
+{
+	width:100%;
+	height:100%;
+	background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("../images/new.jpg");
+	background-size:cover;
+	background-attachment:scroll;
+}
+.top
+{
+	margin: 0;
+	padding: 0;
+	display:flex;
+	align-items:center;
+}
+.topic
+{
+	color:#20B2AA;
+	margin:0px 20px 0px 530px;
+	text-align:center;
+	padding-bottom:10px;
+	padding-top: -10px;
+}
+
+.navigation
+{
+	margin: auto;
+	padding: 35px 0;
+	display:flex;
+	align-items:center;
+}
+.logo
+{
+	cursor:pointer;
+	
+}
+.user
+{
+	cursor:pointer;
+	margin:0px 20px 0px 400px;
+	text-align:center;
+	padding-bottom:10px;
+	padding-top: -10px;
+	border-radius:150px;
+}
+button
+{
+	width:100px;
+	padding:1px 0;
+	text-align:center;
+	margin:5px 5px;
+	border-radius:25px;
+	font-weight:bold;
+	border:2px solid #20B2AA;
+	background: transparent;
+	color:#fff;
+	cursor:pointer;
+	position:relative;
+	overflow:hidden;
+}
+span
+{
+	background:#20B2AA;
+	height:100%;
+	width: 0%;
+	border-radius:25px;
+	position:absolute;
+	left:0;
+	bottom:0;
+	z-index:-1;
+}
+button:hover span
+{
+	width:100%;
+}
+.navigation ul li
+{
+	list-style:none;
+	display:inline-block;
+	margin: 0 20px;
+	position:relative;
+}
+.navigation ul li a
+{
+	text-decoration:none;
+	color:#fff;
+	text-transform:uppercase;
+}
+.navigation ul li::after
+{
+	content: ' ';
+	height:3px;
+	width:0;
+	background:#20B2AA;
+	position:absolute;
+	left:0;
+	bottom:-10px;	
+}
+.navigation ul li:hover::after
+{
+	width:100%;	
+}	
+.bottom
+{
+	margin: 0;
+	padding: 0;
+	display:flex;
+	align-items:center;
+}
+.text
+{
+	margin: auto;
+	padding: 35px 0;
+	display:flex;
+	align-items:center;
+	color:#fff;
+}
+.text ul li
+{
+	list-style:none;
+	margin: 0 20px;
+	position:relative;
+}
+.text ul li a
+{
+	text-decoration:none;
+	color:#fff;
+	text-transform:uppercase;
+}
+.text ul li ::after
+{
+	content: ' ';
+	height:3px;
+	width:0;
+	background:#20B2AA;
+	position:absolute;
+	left:0;
+	bottom:-10px;	
+}
+.text ul li :hover::after
+{
+	width:100%;	
+}	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Doctors
+ {
+	border-style:groove;
+	border-color:#20B2AA;
+	text-align:center;
+	overflow:hidden;
+	
+ }
+ 
+ 
+ #para{
+	 
+	text-align:center-right;
+ }
+#doc_h
+{
+	color:white;
+}
+
+.bttn:hover
+{
+	
+	box-shadow: 0 12px 16px 0 rgba(0,204,153,0.3), 0 17px 50px 0 rgba(0,204,153,0.3);
+}
+.bttn
+{
+	width:250px;
+	
+}
+
+
+
+#Hospitals
+ {
+	border-style:groove;
+	border-color:#20B2AA;
+	text-align:center;
+	overflow:hidden;
+	
+ }
+ 
+ #hosp_h
+{
+	color:white;
+}
+
+#hosp
+{
+	width:500px;
+	height:300px;
+}
+
+
+#para_hosp
+{
+	color:white;
+}
+#fld
+{
+	
+	color:white;
+	text-align:center;
+	width:100%s;
+	border-color:#20B2AA;
+	padding:10px;
+}
+
+#appt_h
+{
+	color:white;
+}
+
+#appointment
+{
+	border-style:groove;
+	border-color:#20B2AA;
+	text-align:center;
+	overflow:hidden;
+	
+	
+}
+
+#f_submit
+{
+	float:left;
+	color:black;
+	background-color:white;
+	border-color:#20B2AA;
+	height:30px;
+	width:110px;
+}
+
+#f_reset
+{
+	float:left;
+	color:black;
+	background-color:white;
+	border-color:#20B2AA;
+	height:30px;
+	width:110px;
+}
+
+form
+{
+	font-size:20px;
+	text-align:justify;
+	width:50%
+}
+input
+{
+	width:75%;
+}
+
+#para
+{
+	color:white;
+}
+#docts
+{
+	height:400px;
+}
+#d1
+{
+	list-style-type:circle;
+}
+
+h1
+{
+	color:white;
+
+}
+h2{
+	color:white;
+	
+}
+ h3{
+	 text-decoration:underline;
+	 color:#20B2AA;
+ }
+ h4{
+	  text-decoration:underline;
+	 color:#20B2AA;
+ }
+ h5{
+	 color:white;
+ }
+ 
+ li{
+	 list-style-type:circle;
+ }
+ 
+ #tag_1
+ {
+	 border-style:groove;
+	border-color:#20B2AA;
+	text-align:center;
+	overflow:hidden;
+	width:50%;
+	height:450px;
+	float:left;
+ }
+ #tag_2
+ {
+	 border-style:groove;
+	border-color:#20B2AA;
+	text-align:center;
+	overflow:hidden;
+	width:49.3%;
+	height:450px;
+	float:right;
+ }
+ #tag_3
+ {
+	 border-style:groove;
+	border-color:#20B2AA;
+	text-align:center;
+	overflow:hidden;
+	width:50%;
+	height:75%;
+	float:left;
+	
+ }
+  #tag_4
+ {
+	 border-style:groove;
+	border-color:#20B2AA;
+	text-align:center;
+	overflow:hidden;
+	width:49.3%;
+	height:75%;
+	float:right;
+	
+ }
+ 
+ #c1
+ {
+	 border-color:#20B2AA;
+ }
+ .conta
+ {
+	 height:60px;
+	 width:60px;
+ }
+ #wt
+ {
+	 float:left;
+ }
+
+ .cw
+ {
+	 text-decoration:none;
+	 float:left;
+	 padding-left:40px;
+	 padding-right:0px;
+	 font-size:30px;
+ }
+.cx{
+	display:block;
+	list-style-type:none;
+	color:white;
+	font-weight:bold;
+	overflow:hidden;
+	border:5px solid #20B2AA;
+	padding:5px;
+	text-align:center;
+	width:150px;
+	
+	 
+ }
+ .cx:hover{
+	  box-shadow: 0 12px 16px 0 rgba(0,204,153,0.3), 0 17px 50px 0 rgba(0,204,153,0.3);
+ }
+ .phone
+ {
+	display:block;
+	list-style-type:none;
+	color:white;
+	font-weight:bold;
+	overflow:hidden;
+	border:5px solid #20B2AA;
+	text-align:center;
+	width:300px;
+	margin-left:100px;
+
+ }
+ .p1
+ {
+	 border:1px solid #FFFFFF;
+	 width:300px;
+	 float:center;
+	 font-size:20px;
+	 
+ }
+ .how
+ {
+	 border-style:groove;
+	border-color:#20B2AA;
+	text-align:center;
+	overflow:hidden;
+	width:75%;
+	height:114.4px;
+	margin-left:100px;
+ }
+ 
+ .how2
+ {
+	 width:50%;
+	 height:30%;
+	 
+ }
+
+ .how2:hover
+ {
+	 
+	 box-shadow: 0 12px 16px 0 rgba(0,204,153,0.3), 0 17px 50px 0 rgba(0,204,153,0.3);
+ }
+ 
+ .claim
+ {
+	 color:white;
+	 text-decoration:underline;
+	  text-align:center;
+	  font-size:60px;
+	 
+ }
+ .claim1
+ {
+	 color:white;
+	 text-align:center;
+	 font-size:30px;
+	 
+ }
+ 
+ #para_benef
+ {
+	 color:white;
+ }
+ #para_benef1
+ {
+	 color:white;
+ }
+ 
+
+#appointment{
+	color:white;
+	text-align:center;
+}
+
+ 
+#h_id
+ {
+	 width:72%;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ 
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+ 
+ 
